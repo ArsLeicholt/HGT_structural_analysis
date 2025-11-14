@@ -1,6 +1,4 @@
-# Scripts Inventory
 
-## Active Scripts (Current Directory)
 
 ### 1. Alphafold3 JSON Input Generator
 **`generate_af3_inputs.py`** - Complete AlphaFold3 JSON input generator
