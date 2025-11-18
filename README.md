@@ -4,15 +4,19 @@
 **`generate_af3_inputs.py`** - Complete AlphaFold3 JSON input generator
 
 **Input JSONs (when using 8 sequences)**
-- Set 1 (multimer): 64 files (8 sequences × 8 scenarios)
+- Set 1 (PRTases): 64 files (8 sequences × 8 scenarios)
 - Set 2 (TCA): 96 files (8 sequences × 6 substrates × 2 assemblies)
 - Set 3 (nucleotide): 64 files (8 sequences × 8 substrates)
 - **Total**: 224 JSON input files
 
 ### 2. Analysis Scripts
+
 **`analyze_af3_results_combined.py`** - Comprehensive analysis for all AF3 outputs
 - Generates heatmaps with overall pLDDT values
 - Extracts metrics: ipTM, pLDDT, PAE, contact probability
+
+  **`plot_ligand_pae_bars.py`** - Ligand:Contact residues PAE analysis for GAGA.
+- Plotting and statistics for GAGA dimer predictions
 
 **`extract_ligand_contacts.py`** - Ligand contact residue extraction
 - Extracts residues within 5 Å (or custom distance) of all ligands
