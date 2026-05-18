@@ -1,4 +1,4 @@
-
+Code for structural analysis in "Janina L Rinke, Lukas Franke, Ding He, Maike L Fischer, Joel Vizueta, Lars A Eicholt, Rasmus S Larsen, Zijun Xiong, Phoebe Cunningham, Lee M Henry, Martin Kaltenpoth, Jürgen Gadau, Guojie Zhang, Jacobus J Boomsma, Lukas Schrader, Comparative analysis of 163 ant genomes reveals recurrent horizontal gene transfer from bacteria to ants, GigaScience, 2026;, giag043, https://doi.org/10.1093/gigascience/giag043"
 
 ### 1. Alphafold3 JSON Input Generator
 **`generate_af3_inputs.py`** - Complete AlphaFold3 JSON input generator
